@@ -1,0 +1,36 @@
+body {
+    margin: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.avatar {
+    width: 150px;         
+    height: 150px;
+    border-radius: 50%;   
+    object-fit: cover;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #eae0d5;
+    color: #22333b;
+    border: 8px solid #5e503f;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+
+.card h3 {
+    font-size: 28px;       /* makes name bigger */
+}
+
+.job-title {
+    text-align: left;      /* left-aligns the Frontend Developer text */
+}
